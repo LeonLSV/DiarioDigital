@@ -1,0 +1,122 @@
+%shadow {
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.news__container {
+  padding: 50px;
+  column-count: 6;
+}
+
+@media (max-width: 1700px) {
+  .news__container {
+    column-count: 5;
+  }
+}
+@media (max-width: 1500px) {
+  .news__container {
+    column-count: 4;
+  }
+}
+@media (max-width: 1000px) {
+  .news__container {
+    column-count: 3;
+  }
+}
+@media (max-width: 767px) {
+  .news__container {
+    column-count: 2;
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .news__container {
+    column-count: 1;
+    padding: 20px;
+  }
+}
+
+// .login__container {
+//   font-size: 1.2em;
+//   @include get-font-weight(medium);
+//   p {
+//     @extend %shadow;
+//   }
+// }
+// .login__container-navbar {
+//   font-size: 1.2em;
+//   @include get-font-weight(medium);
+//   display: flex;
+//   align-items: center;
+//   p {
+//     @extend %shadow;
+//   }
+// }
+
+// .main__container {
+//   background: linear-gradient(
+//     94.09deg,
+//     $bkg-color-main 2.25%,
+//     $bkg-color-modal 95.6%
+//   );
+//   @include get-font(light, principal);
+//   color: $text-color;
+// }
+
+// .notice__container {
+//   color: $text-color;
+//   position: absolute;
+//   bottom: 50px;
+//   height: 183px;
+//   background-color: rgba(65, 65, 65, 0.55);
+//   @include breakpoint(medium) {
+//     width: 508.7px;
+//   }
+// }
+
+// .notice__container--title {
+//   padding: 1.562em 5.781em 0 0.625em;
+//   min-width: 5.312em;
+//   @include get-font-weight(bold);
+//   font-size: 2em;
+// }
+
+// .notice__container--text {
+//   padding: 0.5em 4.5em 2.875em 1.437em;
+//   font-size: 1em;
+//   @include get-font-weight(medium);
+//   @include breakpoint(medium) {
+//     width: 450px;
+//   }
+// }
+
+// .sections__container {
+//   min-width: 320px;
+//   color: $text-color;
+//   height: 330px;
+//   margin-top: 4.167em;
+//   @include get-font(light, secondary);
+//   background-color: $header-color;
+//   @include breakpoint(medium) {
+//     height: 120px;
+//   }
+// }
+
+// .sections__container--title {
+//   padding: 0.277em 0 1.527em;
+//   font-size: 3em;
+//   text-align: center;
+//   letter-spacing: normal;
+//   @extend %shadow;
+//   @include breakpoint(medium) {
+//     display: none;
+//   }
+// }
+
+// .stats__container {
+//   text-align: center;
+//   font-size: 1.15rem;
+//   h1 {
+//     color: $text-color;
+//     font-size: 2rem;
+//   }
+// }

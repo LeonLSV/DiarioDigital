@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of <MainTitle /> should show the component correctly 1`] = `
+<Fragment>
+  <div
+    className="main__container--login"
+  >
+    <h1
+      className="main__container--title"
+    >
+      News with automated web extraction
+    </h1>
+    <p
+      className="main__container--title-description"
+    >
+      We use Artificial Intelligence to classify the news according to its positivism or negativity
+    </p>
+    <Link
+      aria-label="Learn more"
+      to="/blog"
+    >
+      <button
+        className="main__container--btn"
+        tabIndex="-1"
+        type="button"
+      >
+        Learn more
+      </button>
+    </Link>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+
+@import "./settings/breakpoints";
+@import "./settings/colors";
+@import "./settings/typography";
+
+@import "./base/base";
+@import "./base/containers";
+
+@import "./layout/flex";
+@import "./layout/grid";
+
+//Components
+@import "./components/auth";
+@import "./components/admin";
+@import "./components/newsSection";
+@import "./components/cardNew";
+@import "./components/newsDetail";
+@import "./components/navbar.scss";
+@import "./components/skipLink.scss";
+@import "./components/confirmation";
+@import "./components/notFound.scss";
+@import "./components/loading.scss";
+@import "./components/footer.scss";
+@import "./components/mainTitle.scss";
+@import "./components/blogScreen.scss";
+@import "./components/newsPerCountry.scss";
+@import "./components/mainLogin.scss";

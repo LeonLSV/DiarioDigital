@@ -1,0 +1,162 @@
+.auth__container {
+  opacity: 0;
+  color: #1a1a1a;
+  width: 90%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 0 10px;
+  border-radius: 63px;
+  @include breakpoint(medium) {
+    padding: 0 40px;
+    width: 95%;
+    margin: 100px auto;
+    max-width: 500px;
+  }
+}
+
+.auth__title {
+  font-size: 1.5rem;
+  margin: 0px auto;
+  margin-top: 30px;
+  font-weight: 600;
+  @include breakpoint(medium) {
+    font-size: 2rem;
+    margin-top: 50px;
+    font-weight: 600;
+  }
+}
+.auth__title--second {
+  margin: 0px auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+  @include breakpoint(medium) {
+    font-size: 1.6rem;
+  }
+}
+
+.auth__description {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  font-size: 0.6rem;
+  @include breakpoint(medium) {
+    font-size: 1rem;
+    padding-bottom: 30px;
+    padding-top: 45px;
+  }
+}
+
+.auth__label {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 0.6rem;
+  @include breakpoint(medium) {
+    margin-bottom: 36px;
+    font-size: 1rem;
+  }
+}
+
+.auth__input {
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  border: 1px solid #797979;
+  outline: none;
+  transition: 0.5s;
+  caret-color: Black;
+  color: $bkg-color-main;
+  border-radius: 31px;
+  &:focus,
+  &:hover,
+  &:active {
+    box-shadow: 0px 3px 3px 0px #797979;
+  }
+  @include breakpoint(medium) {
+    height: 60px;
+    font-size: 0.8rem;
+    padding-left: 20px;
+  }
+}
+
+.auth__input::placeholder {
+  color: $bkg-color-main;
+}
+.auth___password--button {
+  outline: none;
+  background-color: #ffffff;
+  border: none;
+  color: #ffffff;
+  &:focus {
+    outline: inherit;
+    background-color: #9067d1;
+    border-radius: 20px;
+    height: 28px;
+    width: 12rem;
+    outline: inherit;
+    color: $ligth-color;
+  }
+}
+.auth__infopassword {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  padding: 0 10px;
+  font-size: 0.6rem;
+  text-align: center;
+  @include breakpoint(medium) {
+    font-size: 0.8rem;
+  }
+}
+
+.auth__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $boton-color;
+  width: 60%;
+  height: 40px;
+  color: $ligth-color;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0px auto;
+  border: none;
+  outline: none;
+  border-radius: 31px;
+  &:hover {
+    background: $boton-colorInv;
+  }
+  @include breakpoint(medium) {
+    height: 60px;
+    font-size: 1.1rem;
+  }
+}
+
+.auth__btn:focus {
+  box-shadow: 0px 3px 3px 0px #797979;
+}
+
+.auth__privacity {
+  color: $bkg-color-main;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 0.6rem;
+  max-width: 200px;
+  @include breakpoint(medium) {
+    font-size: 0.95rem;
+    max-width: 350px;
+  }
+}
+.auth__link {
+  text-align: center;
+  margin-bottom: 75px;
+  color: black;
+  font-size: 0.7rem;
+  margin-top: 30px;
+  @include breakpoint(medium) {
+    font-size: 1rem;
+  }
+}
