@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { TweenMax, Power3 } from "gsap";
 import { Link } from "react-router-dom";
-import InstallPWA from "../components/installPWA";
 
 const MainTitle = () => {
   let titleWithAnimation = useRef(null);
@@ -32,7 +31,6 @@ const MainTitle = () => {
             Learn more
           </button>
         </Link>
-        <InstallPWA />
       </div>
     </>
   );
