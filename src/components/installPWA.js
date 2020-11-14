@@ -40,9 +40,9 @@ const InstallPWA = () => {
     }
     promptInstall.prompt();
   };
-  if (!supportsPWA) {
-    return null;
-  }
+  // if (!supportsPWA) {
+  //   return null;
+  // }
   return <StyledButton onClick={onClick}>Install</StyledButton>;
 };
 
